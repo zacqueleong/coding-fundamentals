@@ -1,0 +1,46 @@
+body {
+    background-color:#efefefef;
+}
+
+.title {
+    font-size: 50px;
+}
+  
+@media (max-width: 640px) {
+    }
+    .mobile{
+        display:block; 
+    }
+    .tablet, .desktop {
+        display:none;
+    }
+    body {
+        background-color:red;
+}
+
+@media (min-width: 640px) and (max-width:1024px){
+    .tablet{
+        display:block; 
+    }
+    .mobile, .desktop {
+        display:none;
+    }
+    body {
+        background-color:greenyellow;
+    }
+}
+
+@media (min-width: 1024px) {
+    .desktop{
+        display:block; 
+    }
+    .mobile, .tablet {
+        display:none;
+    }
+    body {
+        background-color:blue;
+    }
+    .title, .desc{
+        color:white;
+    }
+}
