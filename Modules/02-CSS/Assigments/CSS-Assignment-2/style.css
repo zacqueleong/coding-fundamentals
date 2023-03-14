@@ -1,0 +1,20 @@
+.breadcrumb { 
+    padding: 1rem; 
+    background-color: #efefefef;
+    list-style-type: none;
+  }
+  
+.breadcrumb li {
+    display: inline-block;
+}
+  
+.breadcrumb li a {
+    color: hotpink;
+}
+
+li:not(:first-child)::before{
+    content: "/";
+    padding: 1rem;
+    color:purple;
+}
+  
