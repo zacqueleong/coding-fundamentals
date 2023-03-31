@@ -1,0 +1,57 @@
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    display:flex;
+    flex-direction:column;
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+header{
+    background-color:aqua;
+}
+
+main{
+    background-color:aquamarine;
+}
+
+footer{
+    height:50vh;
+    background-color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.footer-links, .social-links, .copyright-text{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links > a{
+    margin: 1em;
+    color: #565656;
+}
+
+.social-links > a{
+    margin: 0.8em;
+    color: #565656;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyright-text{
+    margin:0.8em;
+    color: #565656;
+    font-size:0.9em;
+}
