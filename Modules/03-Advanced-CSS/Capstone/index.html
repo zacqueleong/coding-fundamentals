@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flexbox Capstone Project</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/75b98c63ae.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="nav__left">
+        <svg class="nav__logo" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6.429 9.75L2.25 12l4.179 2.25m0-4.5l5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0l4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0l-5.571 3-5.571-3" />
+        </svg>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Changelog</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Partners</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">News</a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="nav__right">
+        <div><button class="nav__button">Login</button></div>
+      </div>
+    </div>
+
+    <div class="section-1">
+      <div class="heading">
+        <div class="heading__container">
+          <div class="heading__title">Get in touch</div>
+          <div class="heading__desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla provident adipisci non ratione assumenda natus totam recusandae quis officia animi mollitia ducimus amet consequatur quidem, exercitationem commodi, iure molestias quasi!</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-2">
+      <div class="contact__card">
+        <div class="contact">
+          <div class="contact__title">Contact information</div>
+          <div class="contact__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab vitae exercitationem dicta ducimus? Voluptatibus culpa incidunt porro.</div>
+          <div class="contact__tel">
+            <i class="fa-solid fa-phone"></i>
+            <span>+1 (555) 123-4567</span>
+          </div>
+          <div class="contact__email">
+            <i class="fa-sharp fa-regular fa-envelope"></i>
+            <span>support@workcation.com</span>
+          </div>
+          <div class="contact__social">
+            <div class="contact__link"><a href="#" class="fa-brands fa-facebook"></a></div>
+            <div class="contact__link"><a href="#" class="fa-brands fa-github"></a></div>
+            <div class="contact__link"><a href="#" class="fa-brands fa-twitter"></a></div>
+          </div>
+        </div>
+
+        <div class="form">
+          <div class="form__title">Send us a message</div>
+
+          <form class="form__content">
+            <div class="form__row-1">
+              <div class="form__firstname">
+                <div class="label__text">
+                  <label for="firstname">First name</label>
+                </div>
+                <input type="text" id="firstname" placeholder="" required />
+              </div>
+
+              <div class="form__lastname">
+                <div class="label__text">
+                  <label for="lastname">Last name</label>
+                </div>
+                <input type="text" id="lastname" placeholder="" required />
+              </div>
+            </div>
+
+            <div class="form__row-2">
+              <div class="form__email">
+                <div class="label__text">
+                  <label for="email">Email</label>
+                </div>
+                <input type="email" id="email" placeholder="" required />
+              </div>
+
+              <div class="form__phone">
+                <div class="label__text">
+                  <label for="phone">Phone</label>
+                  <div class="label__secondary">Optional</div>
+                </div>
+                <input type="number" id="phone" placeholder="" />
+              </div>
+            </div>
+
+            <div class="form__row-3">
+              <div class="form__subject">
+                <div class="label__text">
+                  <label for="subject">Subject</label>
+                </div>
+                <input type="text" id="subject" placeholder="" />
+              </div>
+            </div>
+
+            <div class="form__row-4">
+              <div class="form__message">
+                <div class="label__text">
+                  <label for="message">Message</label>
+                  <div class="label__secondary">Max. 500 characters</div>
+                </div>
+                <textarea id="message" name="message" rows="8" cols="38" maxlength="100"></textarea>
+              </div>
+            </div>
+
+            <div class="form__row-5">
+              <button class="submit__button" type="submit">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,222 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+.nav {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.nav__left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav__right {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav__logo {
+  width: 100px;
+  height: auto;
+}
+
+.nav__list {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+  list-style-type: none;
+}
+
+.nav__item > a {
+  font-size: 2em;
+  color: grey;
+  text-decoration: none;
+}
+
+.heading {
+  width: 100%;
+  height: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: url(https://img.freepik.com/free-vector/background-wave-abstract-gradient-style_483537-2944.jpg?w=1380&t=st=1682443164~exp=1682443764~hmac=a4d8deb9db0327eb314b934591dff53726ad48bb753d4be2502f197ec19b9363);
+  background-size: cover;
+}
+
+.heading__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1em;
+  gap: 1em;
+}
+
+.heading__title {
+  width: 50%;
+  font-size: 5em;
+  font-weight: 800;
+}
+
+.heading__desc {
+  width: 50%;
+  color: grey;
+}
+
+.section-2 {
+  padding: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__card {
+  display: flex;
+  flex-grow: 1;
+  border: 1px solid rgb(230, 230, 230);
+  box-shadow: 10px 10px 8px #d1d1d1;
+}
+
+.contact {
+  width: 30%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  background-color: rgb(63, 63, 63);
+  color: white;
+}
+
+.contact__title {
+  padding-top: 1.5em;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.contact__tel,
+.contact__email,
+.contact__social {
+  display: flex;
+  gap: 1.5em;
+}
+
+.contact__social {
+  font-size: 1.5em;
+}
+
+.contact__link > a {
+  text-decoration: none;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-grow: 7;
+  flex-direction: column;
+}
+
+.form__title {
+  padding-left: 1.5em;
+  padding-top: 1.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+.form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  padding: 2em;
+}
+
+.label__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.label__secondary {
+  color: rgb(145, 145, 145);
+}
+
+/* Input Label and Field Styling */
+.form__firstname,
+.form__lastname,
+.form__email,
+.form__phone,
+.form__subject,
+.form__message {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+/* Row Styling */
+.form__row-1,
+.form__row-2,
+.form__row-3,
+.form__row-4 {
+  display: flex;
+  gap: 1em;
+}
+
+.form__row-5 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* Input Box Styling */
+
+/* Set all input box to grow and fill up remaining space in the container automatically */
+.form__firstname,
+.form__lastname,
+.form__email,
+.form__phone,
+.form__subject,
+.form__message {
+  flex-grow: 1;
+}
+
+input {
+  height: 2em;
+  padding: 0.5em;
+}
+
+input,
+textarea {
+  border-radius: 1em;
+  border: 1px solid rgb(145, 145, 145);
+}
+
+/* All button for the page share the same styling and hover effects */
+button {
+  width: 100px;
+  padding: 10px;
+  background-color: transparent;
+  border-radius: 1em;
+}
+
+button:hover {
+  background-color: rgb(63, 63, 63);
+  transition: 0.7s;
+  color: white;
+}
