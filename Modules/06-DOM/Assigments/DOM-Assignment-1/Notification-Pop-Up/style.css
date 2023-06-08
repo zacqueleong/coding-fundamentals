@@ -1,0 +1,95 @@
+* {    
+    margin: 0;    
+    padding: 0;    
+    box-sizing: border-box;
+  }
+  
+  html {    
+    font-family: system-ui;
+  }
+  
+  body {    
+    background-color: lightgray;
+  }
+  
+  /* Add Button */
+  .add__button {    
+    margin: 1rem;    
+    padding: 10px 20px;    
+    border: 1px solid #bbbbbb;    
+    border-radius: 10px;    
+    cursor: pointer;    
+    background-color: white;
+  }
+  
+  .add__button:hover {    
+    background-color: #eeeeee;
+  }
+  
+  /* Notification */
+  .notification {    
+    position: fixed;    
+    top: 1rem;    
+    right: 1rem;    
+    transition: all 0.5s ease-in-out;    
+    transform: translateX(100vw);
+  }
+  
+  .show {    
+    transform: translateX(0);
+  }
+  
+  .card {    
+    display: flex;    
+    align-items: flex-start;    
+    padding: 1.5rem;    
+    background-color: white;    
+    width: 27rem;    
+    overflow: hidden;    
+    border-radius: 0.5rem;    
+    border: 0.5px solid #bbbbbb;    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(187, 187, 187, 0.1);}
+  
+  .card > * + * {    
+    margin-left: 1.5rem;
+  }
+  
+  /* Content */
+  .card__content {    
+    flex: 1;
+  }
+  
+  .card__content .title {    
+    font-weight: 500;    
+    color: #111827;    
+    padding-bottom: 0.25rem;
+  }
+  
+  .card__content .description {    
+    font-weight: 300;    
+    color: #6b7280;
+  }
+  
+  /* CTA */
+  .cta__button {    
+    border: none;    
+    background-color: transparent;
+  }
+  
+  /* Icons */
+  .icon__check {    
+    height: 1.5rem;    
+    width: 1.5rem;    
+    color: #4ade80;
+  }
+  
+  .icon__close {    
+    height: 1.5rem;    
+    width: 1.5rem;    
+    color: #9ca3af;    
+    cursor: pointer;
+  }
+  
+  .icon__close:hover {    
+    color: #626771;
+  }
