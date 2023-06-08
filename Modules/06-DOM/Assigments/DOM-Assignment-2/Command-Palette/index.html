@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <title>Command Palette</title>
+  </head>
+  <body>
+    <div class="wrapper" role="dialog" aria-modal="true">
+      <div class="bg-backdrop"></div>
+
+      <div class="container">
+        <div class="palette fade-out">
+          <div class="search-container">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+              <path fill-rule="evenodd" d="M9 3.5a5.5 5.5 0 100 11 5.5 5.5 0 000-11zM2 9a7 7 0 1112.452 4.391l3.328 3.329a.75.75 0 11-1.06 1.06l-3.329-3.328A7 7 0 012 9z" clip-rule="evenodd" />
+            </svg>
+            <input type="text" class="search-input" placeholder="Search..." role="combobox" aria-expanded="false" aria-controls="options" />
+          </div>
+
+          <ul class="results-container" id="options" role="listbox">
+            <li class="result-item" id="option-1" role="option" tabindex="-1">Leslie Alexander</li>
+            <li class="result-item" id="option-2" role="option" tabindex="-1">Michael Foster</li>
+            <li class="result-item" id="option-3" role="option" tabindex="-1">Dries Vincent</li>
+            <li class="result-item" id="option-4" role="option" tabindex="-1">Lindsay Walton</li>
+            <li class="result-item" id="option-5" role="option" tabindex="-1">Courtney Henry</li>
+          </ul>
+
+          <p class="no-result">No people found.</p>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
