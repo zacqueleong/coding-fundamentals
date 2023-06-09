@@ -10,7 +10,6 @@ window.addEventListener("mousemove", function (e) {
 });
 
 // Event listener: Scroll                
-
 window.addEventListener("scroll", function (e) {
     // Restore header when user scroll back to the very top.
     if (window.scrollY === 0) {
@@ -24,9 +23,6 @@ window.addEventListener("scroll", function (e) {
         }
     }
 });
-
-// - Use window.scrollY to check the scroll height of the user on the website.
-// - Use scroll event for tracking the scrolling movement of user.
 
 // Functions
 function hideNav() {
