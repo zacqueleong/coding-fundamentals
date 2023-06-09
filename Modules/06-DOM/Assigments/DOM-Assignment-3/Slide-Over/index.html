@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Slide Over</title>
+</head>
+<body>
+    
+    
+    <div class="wrapper">
+        <div class="bg-backdrop"></div>
+
+        <!-- Added register button for user to click -->
+        <button class="register-button">Register</button> 
+
+        <div class="slide-over-container"> 
+          <div class="slide-over-panel">                    
+            <div class="panel-container">
+                                       
+              <div class="panel-header">                            
+                <h2 class="panel-title" id="slide-over-title">Panel title</h2>                        
+                <button type="button" class="close-button">                                
+                  <svg class="x-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true">                                    
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />                                
+                  </svg>                            
+                </button>                        
+              </div>                        
+              <div class="panel-body">                            
+                <div class="content-container">                                
+                  <div class="content-outline"></div>                            
+                </div>                        
+              </div>                    
+            </div>                
+          </div>           
+        </div>        
+      </div>
+      <script src="./app.js"></script>
+</body>
+</html>
