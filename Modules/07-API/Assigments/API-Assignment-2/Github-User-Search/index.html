@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Search</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1>GitHub User Search</h1>
+    <p>(Made possible via <i><a href="https://docs.github.com/en/rest/users/users#get-a-user">Github REST API</a></i>)</p>
+    <div id="main-container">
+        <div id="user-search">
+            <form id="search-form">
+                <input type="text" />
+                <button type="Button" id="search-button">Get User</button>
+            </form>
+        </div>
+        <div id="profile" class="hide">
+            <img src="" alt="" id="profile-avatar">
+            <div id="profile-details">
+                <div id="profile-name">Profile Name</div>
+                <div id="profile-bio">Profile Bio</div>
+                <div id="profile-joined">Joined at: DD Month Year</div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
