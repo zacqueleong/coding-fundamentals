@@ -1,0 +1,8 @@
+.hide {
+    display:none;
+}
+
+.bold-text{
+    font-weight:800;
+    font-size: 2em;
+}
