@@ -1,0 +1,37 @@
+1. 
+We need loops to help iterate segments of our code which we want to run again and over again.
+
+We write a basic for loop starting with the 'for' statement followed by 3 parameters.
+
+Parameter 1: Initialisation Code, that will be executed before the loop starts (For example, set the initial counter)
+Parameter 2: Condition for executing the loop (This will be checked on each code execution / iteration)
+Parameter 3: Code to execute after the whole for loop block has been executed. (For example, To increment or to decrement the counter)
+
+Example of a for loop, that will loop 5 times.
+
+for (let i = 1; i <= 5 ; i++){
+    console.log(`Loop # : ${i}`);
+}
+
+2.
+console.log is used to display values on console
+return is used to return a specific value/function within a function block
+
+3. 
+truthy values are values that are evaluated with result of true through Boolean() function
+falsy values are values  that are evaluated with result of false through Boolean() function
+
+4. 
+The internet works by having a large global network of computers connected. 
+The established network allows data packets to be transferred between the computers connected.
+Communication between client and server is done through the a standard known as the Internet Protocol.
+
+5.
+The website work when we enter the internet link/address through our browser.
+The browser sends request to the server which hosts the webpage of the website that we want to access.
+When connection is established, the server will return the requested files required to load the website.
+
+The files involved to load a website generally includes but not limited to:
+i) html file (for the structure of the page)
+ii) css file (for the styling of the page)
+iii) javascript file (for the dynamic interaction with the page)
