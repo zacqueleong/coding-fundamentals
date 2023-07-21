@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <h1>Todo App</h1>
+        <form class="add-todo-form" onsubmit="addTodo()">
+            <input id="add-task" type="text" placeholder ="Enter a new task...">
+            <select id="add-priority">
+                <option value="" disabled selected>Select a Priority</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button class="add-btn" type="submit">Add Task</button>
+        </form>
+        <h2>Todo List</h2>
+        <ul class="todo-list">
+        </ul>
+        <h2>Deleted Todo Items</h2>
+        <ul class="todo-list-deleted">
+        </ul>
+    </div>
+</body>
+</html>
