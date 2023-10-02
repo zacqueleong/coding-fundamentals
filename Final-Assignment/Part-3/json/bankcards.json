@@ -1,0 +1,527 @@
+[
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "001",
+    "cardId": "MBB001",
+    "cardName": "Maybank 2 Gold Master"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "002",
+    "cardId": "MBB002",
+    "cardName": "Maybank 2 Gold Visa"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "003",
+    "cardId": "MBB003",
+    "cardName": "Maybank 2 Gold AMEX"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "004",
+    "cardId": "MBB004",
+    "cardName": "Maybank 2 Platinum Master"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "005",
+    "cardId": "MBB005",
+    "cardName": "Maybank 2 Platinum Visa"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "006",
+    "cardId": "MBB006",
+    "cardName": "Maybank 2 Platinum AMEX"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "007",
+    "cardId": "MBB007",
+    "cardName": "Maybank FC Barcelona Visa Signature"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "008",
+    "cardId": "MBB008",
+    "cardName": "Maybank Grab Mastercard Platinum"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "009",
+    "cardId": "MBB009",
+    "cardName": "Maybank Shopee Visa Platinum"
+  },
+  {
+    "bankName": "Maybank",
+    "bankCode": "MBB",
+    "bankCardNo": "010",
+    "cardId": "MBB010",
+    "cardName": "Maybank World Mastercard"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "001",
+    "cardId": "MBI001",
+    "cardName": "Maybank Islamic Ikhwan American Express Platinum Card-i"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "002",
+    "cardId": "MBI002",
+    "cardName": "Maybank Islamic Ikhwan Visa Infinite Card-i"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "003",
+    "cardId": "MBI003",
+    "cardName": "Maybank Islamic Mastercard Ikhwan Gold"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "004",
+    "cardId": "MBI004",
+    "cardName": "Maybank Islamic Mastercard Ikhwan Platinum"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "005",
+    "cardId": "MBI005",
+    "cardName": "Maybank Islamic PETRONAS Ikhwan Visa Gold Card-i"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "006",
+    "cardId": "MBI006",
+    "cardName": "Maybank Islamic PETRONAS Ikhwan Visa Platinum Card-i"
+  },
+  {
+    "bankName": "Maybank Islamic",
+    "bankCode": "MBI",
+    "bankCardNo": "007",
+    "cardId": "MBI007",
+    "cardName": "Maybank Islamic World Mastercard Ikhwan"
+  },
+  {
+    "bankName": "AFFIN BANK",
+    "bankCode": "AFB",
+    "bankCardNo": "001",
+    "cardId": "AFB001",
+    "cardName": "AFFIN BANK Visa Signature"
+  },
+  {
+    "bankName": "AFFIN BANK",
+    "bankCode": "AFB",
+    "bankCardNo": "002",
+    "cardId": "AFB002",
+    "cardName": "AFFIN BANK Duo Plus Visa"
+  },
+  {
+    "bankName": "AFFIN BANK",
+    "bankCode": "AFB",
+    "bankCardNo": "003",
+    "cardId": "AFB003",
+    "cardName": "AFFIN BANK Duo Plus Master"
+  },
+  {
+    "bankName": "Alliance Bank",
+    "bankCode": "ALB",
+    "bankCardNo": "001",
+    "cardId": "ALB001",
+    "cardName": "Alliance Bank Visa Platinum"
+  },
+  {
+    "bankName": "Alliance Bank",
+    "bankCode": "ALB",
+    "bankCardNo": "002",
+    "cardId": "ALB002",
+    "cardName": "Alliance Bank Visa Infinite"
+  },
+  {
+    "bankName": "Alliance Bank",
+    "bankCode": "ALB",
+    "bankCardNo": "003",
+    "cardId": "ALB003",
+    "cardName": "Alliance Bank Visa Signature"
+  },
+  {
+    "bankName": "AmBank",
+    "bankCode": "AMB",
+    "bankCardNo": "001",
+    "cardId": "AMB001",
+    "cardName": "AmBank Cash Rebate Visa Platinum"
+  },
+  {
+    "bankName": "AmBank",
+    "bankCode": "AMB",
+    "bankCardNo": "002",
+    "cardId": "AMB002",
+    "cardName": "AmBank Visa Infinite"
+  },
+  {
+    "bankName": "AmBank",
+    "bankCode": "AMB",
+    "bankCardNo": "003",
+    "cardId": "AMB003",
+    "cardName": "AmBank Visa Signature"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "001",
+    "cardId": "CIM001",
+    "cardName": "CIMB Travel World Elite Mastercard"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "002",
+    "cardId": "CIM002",
+    "cardName": "CIMB Enrich World Elite"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "003",
+    "cardId": "CIM003",
+    "cardName": "CIMB Visa Infinite"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "004",
+    "cardId": "CIM004",
+    "cardName": "CIMB Enrich World"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "005",
+    "cardId": "CIM005",
+    "cardName": "CIMB WORLD Mastercard"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "006",
+    "cardId": "CIM006",
+    "cardName": "CIMB Visa Signature"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "007",
+    "cardId": "CIM007",
+    "cardName": "CIMB Cash Rebate Platinum"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "008",
+    "cardId": "CIM008",
+    "cardName": "CIMB Platinum"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "009",
+    "cardId": "CIM009",
+    "cardName": "CIMB Platinum-i"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "010",
+    "cardId": "CIM010",
+    "cardName": "CIMB Enrich Platinum"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "011",
+    "cardId": "CIM011",
+    "cardName": "CIMB PETRONAS Platinum"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "012",
+    "cardId": "CIM012",
+    "cardName": "CIMB PETRONAS Platinum-i"
+  },
+  {
+    "bankName": "CIMB",
+    "bankCode": "CIM",
+    "bankCardNo": "013",
+    "cardId": "CIM013",
+    "cardName": "CIMB e Credit Card"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "001",
+    "cardId": "HLB001",
+    "cardName": "Hong Leong Bank AirAsia Platinum"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "002",
+    "cardId": "HLB002",
+    "cardName": "Hong Leong Bank AirAsia Gold"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "003",
+    "cardId": "HLB003",
+    "cardName": "Hong Leong Bank GSC Gold"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "004",
+    "cardId": "HLB004",
+    "cardName": "Hong Leong Bank GSC Platinum"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "005",
+    "cardId": "HLB005",
+    "cardName": "Hong Leong Bank WISE Gold Card"
+  },
+  {
+    "bankName": "Hong Leong Bank",
+    "bankCode": "HLB",
+    "bankCardNo": "006",
+    "cardId": "HLB006",
+    "cardName": "Hong Leong Bank WISE Platinum Card"
+  },
+  {
+    "bankName": "HSBC",
+    "bankCode": "HSB",
+    "bankCardNo": "001",
+    "cardId": "HSB001",
+    "cardName": "HSBC Visa Signature"
+  },
+  {
+    "bankName": "HSBC",
+    "bankCode": "HSB",
+    "bankCardNo": "002",
+    "cardId": "HSB002",
+    "cardName": "HSBC Platinum Mastercard"
+  },
+  {
+    "bankName": "HSBC",
+    "bankCode": "HSB",
+    "bankCardNo": "003",
+    "cardId": "HSB003",
+    "cardName": "HSBC Amanah MPower \nVisa Platinum Credit Card-i"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "001",
+    "cardId": "PBB001",
+    "cardName": "Public Bank Visa Infinite"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "002",
+    "cardId": "PBB002",
+    "cardName": "Public Bank Visa Platinum"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "003",
+    "cardId": "PBB003",
+    "cardName": "Public Bank Visa Signature"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "004",
+    "cardId": "PBB004",
+    "cardName": "Public Bank World Mastercard"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "005",
+    "cardId": "PBB005",
+    "cardName": "Public Bank Quantum Visa"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "006",
+    "cardId": "PBB006",
+    "cardName": "Public Bank Quantum Mastercard"
+  },
+  {
+    "bankName": "Public Bank",
+    "bankCode": "PBB",
+    "bankCardNo": "007",
+    "cardId": "PBB007",
+    "cardName": "Public Bank Platinum Mastercard"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "001",
+    "cardId": "RHB001",
+    "cardName": "RHB Premier Visa Infinite"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "002",
+    "cardId": "RHB002",
+    "cardName": "RHB Visa Infinite"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "003",
+    "cardId": "RHB003",
+    "cardName": "RHB Visa Signature"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "004",
+    "cardId": "RHB004",
+    "cardName": "RHB World MasterCard"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "005",
+    "cardId": "RHB005",
+    "cardName": "RHB Islamic World MasterCard"
+  },
+  {
+    "bankName": "RHB",
+    "bankCode": "RHB",
+    "bankCardNo": "006",
+    "cardId": "RHB006",
+    "cardName": "RHB Cash Back"
+  },
+  {
+    "bankName": "Standard Chartered",
+    "bankCode": "SCB",
+    "bankCardNo": "001",
+    "cardId": "SCB001",
+    "cardName": "Standard Chartered WorldMiles World Mastercard"
+  },
+  {
+    "bankName": "Standard Chartered",
+    "bankCode": "SCB",
+    "bankCardNo": "002",
+    "cardId": "SCB002",
+    "cardName": "Standard Chartered Smart"
+  },
+  {
+    "bankName": "Standard Chartered",
+    "bankCode": "SCB",
+    "bankCardNo": "003",
+    "cardId": "SCB003",
+    "cardName": "Standard Chartered Simply Cash"
+  },
+  {
+    "bankName": "Standard Chartered",
+    "bankCode": "SCB",
+    "bankCardNo": "004",
+    "cardId": "SCB004",
+    "cardName": "Standard Chartered Visa Platinum"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "001",
+    "cardId": "UOB001",
+    "cardName": "UOB Lady’s Solitaire"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "002",
+    "cardId": "UOB002",
+    "cardName": "UOB PRVI Miles"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "003",
+    "cardId": "UOB003",
+    "cardName": "UOB ONE Classic"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "004",
+    "cardId": "UOB004",
+    "cardName": "UOB ONE Platinum"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "005",
+    "cardId": "UOB005",
+    "cardName": "UOB Lady’s Classic"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "006",
+    "cardId": "UOB006",
+    "cardName": "UOB Lady’s Platinum"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "007",
+    "cardId": "UOB007",
+    "cardName": "UOB EVOL"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "008",
+    "cardId": "UOB008",
+    "cardName": "UOB Visa Infinite"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "009",
+    "cardId": "UOB009",
+    "cardName": "UOB Basic"
+  },
+  {
+    "bankName": "UOB",
+    "bankCode": "UOB",
+    "bankCardNo": "010",
+    "cardId": "UOB010",
+    "cardName": "UOB Preferred Platinum"
+  }
+]

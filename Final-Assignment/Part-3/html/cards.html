@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardTrackr - Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="../js/cards.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Section -->
+      <aside>
+        <div class="toggle">
+          <div class="logo">
+            <h2>CARDTrackr</h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-outlined"> close </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="../html/dashboard.html">
+            <span class="material-symbols-outlined"> dashboard </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="../html/cards.html" class="active">
+            <span class="material-symbols-outlined"> credit_card </span>
+            <h3>Cards</h3>
+          </a>
+          <a href="../html/expenses.html">
+            <span class="material-symbols-outlined"> receipt_long </span>
+            <h3>Expenses</h3>
+          </a>
+          <a href="../html/analytics.html">
+            <span class="material-symbols-outlined"> insights </span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="../index.html">
+            <span class="material-symbols-outlined"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- End of Sidebar Section -->
+
+      <!-- Main Content -->
+      <main>
+        <h1>Cards</h1>
+
+        <!-- Cards Section -->
+        <div class="cards">
+          <div class="cards-header">
+            <!-- <h2>Cards</h2> -->
+            <button id="add-card-popup-btn">Add Card</button>
+          </div>
+
+          <div id="cards-container"></div>
+        </div>
+        <!-- End of Cards Section -->
+
+        <!-- The Modal -->
+        <div class="modal">
+          <!-- Modal content -->
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="modal-title"></div>
+              <span class="modal-close">&times;</span>
+            </div>
+
+            <form class="card-form" autocomplete="off">
+              <label for="bank-name">Bank:</label><br />
+              <select name="bank-name" id="bank-name"></select
+              ><br />
+              <label for="card-name">Card Name:</label><br />
+              <select name="card-name" id="card-name"></select
+              ><br />
+              <div id="card-validation">
+                <label for="card-number">Card Number:</label>
+                <div id="card-validation-toggle">
+                  <p>Validation</p>
+                  <label class="switch">
+                    <input type="checkbox" id="validation-toggle">
+                    <span class="slider round"></span>
+                  </label>
+                </div>
+              </div>
+              
+              <br />
+              <input type="number" id="card-number" name="card-number" /><br />
+              <label for="card-limit">Credit Limit:</label><br />
+              <input type="number" id="card-limit" name="card-limit" /><br />
+              <button class="card-form-submit-btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </main>
+      <!-- End of Main Content -->
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <div class="nav">
+          <button id="menu-btn">
+            <span class="material-symbols-outlined"> menu </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

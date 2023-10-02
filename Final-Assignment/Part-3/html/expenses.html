@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardTrackr - Expenses</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module" src="../js/expenses.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar Section -->
+      <aside>
+        <div class="toggle">
+          <div class="logo">
+            <h2>CARDTrackr</h2>
+          </div>
+          <div class="close" id="close-btn">
+            <span class="material-symbols-outlined"> close </span>
+          </div>
+        </div>
+
+        <div class="sidebar">
+          <a href="../html/dashboard.html">
+            <span class="material-symbols-outlined"> dashboard </span>
+            <h3>Dashboard</h3>
+          </a>
+          <a href="../html/cards.html">
+            <span class="material-symbols-outlined"> credit_card </span>
+            <h3>Cards</h3>
+          </a>
+          <a href="../html/expenses.html" class="active">
+            <span class="material-symbols-outlined"> receipt_long </span>
+            <h3>Expenses</h3>
+          </a>
+          <a href="../html/analytics.html">
+            <span class="material-symbols-outlined"> insights </span>
+            <h3>Analytics</h3>
+          </a>
+          <a href="../index.html">
+            <span class="material-symbols-outlined"> logout </span>
+            <h3>Logout</h3>
+          </a>
+        </div>
+      </aside>
+      <!-- End of Sidebar Section -->
+
+      <!-- Main Content -->
+      <main>
+        <h1>Expenses</h1>
+
+        <div class="expenses">
+          <!-- Filter Expenses Form -->
+          <div class="filter-expenses">
+            <!-- <h2>Filter Expenses</h2> -->
+            <form id="filter-expense-form" autocomplete="off">
+              <label for="expense-filter-card">Card:</label><br />
+              <select name="expense-filter-card" id="expense-filter-card"></select
+              ><br />
+              <label for="expense-filter-year">Year:</label><br />
+              <select name="expense-filter-year" id="expense-filter-year"></select
+              ><br />
+              <label for="expense-filter-month">Month:</label><br />
+              <select name="expense-filter-month" id="expense-filter-month"></select
+              ><br />
+              <button class="filter-expense-btn" type="submit">Apply Filter</button>
+            </form>
+          </div>
+
+          <!-- Card Info Details -->
+          <div class="long-card" id="cardinfo-details">
+            <div id="cardinfo-name">
+              <div class="label-bold" id="cardinfo-name-label">Card Name:</div>
+              <div id="cardinfo-name-value"></div>
+            </div>
+            <div id="cardinfo-number">
+              <div class="label-bold" id="cardinfo-number-label">Card Number:</div>
+              <div id="cardinfo-number-value"></div>
+            </div>
+            <div id="cardinfo-bank">
+              <div class="label-bold" id="cardinfo-bank-label">Card Issuer:</div>
+              <div id="cardinfo-bank-value"></div>
+            </div>
+            <div id="cardinfo-limit">
+              <div class="label-bold" id="cardinfo-limit-label">Credit Limit:</div>
+              <div id="cardinfo-limit-value"></div>
+            </div>
+            <div id="cardinfo-tspend">
+              <div class="label-bold" id="cardinfo-tspend-label">Total Monthly Spend:</div>
+              <div id="cardinfo-tspend-value"></div>
+            </div>
+          </div>
+
+          <!-- Recent Expenses Table -->
+          <div class="recent-expenses">
+            <h2 h2>Recent Expenses</h2>
+            <div class="long-card" id="cardinfo-expenses"></div>
+            <div class="showall"><a href="#" id="showall-link">Show All</a></div>
+          </div>
+
+          <!-- Add Expenses Form -->
+          <div class="add-expenses">
+            <h2>Add Expenses</h2>
+            <form id="add-expense-form" autocomplete="off">
+              <label for="expense-date">Date:</label><br />
+              <input type="date" id="expense-date" name="expense-date" /><br />
+              <label for="expense-category">Category:</label><br />
+              <select name="expense-category" id="expense-category"></select
+              ><br />
+              <label for="expense-name">Description:</label><br />
+              <input type="text" id="expense-name" name="expense-name" /><br />
+              <label for="expense-amount">Amount: </label><br />
+              <input type="number" id="expense-amount" name="expense-amount" /><br />
+              <button class="add-expense-btn" type="submit">Add Expense</button>
+            </form>
+          </div>
+
+          <!-- The Modal -->
+          <div class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="modal-title">Edit Expense</div>
+                <span class="modal-close">&times;</span>
+              </div>
+
+              <!-- Edit Expenses Form -->
+              <div class="edit-expenses">
+                <form id="edit-expense-form" autocomplete="off">
+                  <label for="edit-expense-date">Date:</label><br />
+                  <input type="date" id="edit-expense-date" name="edit-expense-date" /><br />
+                  <label for="edit-expense-category">Category:</label><br />
+                  <select name="edit-expense-category" id="edit-expense-category"></select
+                  ><br />
+                  <label for="edit-expense-name">Description:</label><br />
+                  <input type="text" id="edit-expense-name" name="edit-expense-name" /><br />
+                  <label for="edit-expense-amount">Amount: </label><br />
+                  <input type="number" id="edit-expense-amount" name="edit-expense-amount" /><br />
+                  <button class="edit-expense-btn" type="submit">Edit Expense</button>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- End of Recent Expenses -->
+        </div>
+      </main>
+      <!-- End of Main Content -->
+
+      <!-- Right Section -->
+      <div class="right-section">
+        <div class="nav">
+          <button id="menu-btn">
+            <span class="material-symbols-outlined"> menu </span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

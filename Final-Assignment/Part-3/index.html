@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CardTrackr</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script type="module" src="./js/login.js" defer></script>
+</head>
+<div>
+    <div id="login-container">
+        <div id="login-logo">
+            <h1>CARDTrackr</h1>
+        </div>
+        <div class="long-card" id="login">
+            <h2>Welcome</h2>
+            <form id="login-form">
+                <div id="login-form-username">
+                    <label for="login-username">Username</label>
+                    <input type="text" name="login-username" id="login-username"><br />
+                </div>
+
+                <div id="login-form-password">
+                    <label for="login-username">Password</label>
+                    <input type="password" name="login-password" id="login-password"><br />
+                </div>
+                <div id="login-btn-container">
+                    <button class="login-btn"><span class="material-symbols-outlined"> login </span>LOGIN</button>
+                </div>
+            </form>
+        </div>
+        <div id="other-functions">
+            <a href="" id="register-link">New User?</a>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+    <div class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="modal-title">Register</div>
+            <span class="modal-close">&times;</span>
+          </div>
+
+          <!-- Register Account Form -->
+          <div class="register-expenses">
+            <form id="register-form" autocomplete="off">
+              <label for="register-username">Username:</label><br />
+              <input type="text" id="register-username" name="register-username" /><br />
+              <label for="register-password">Password:</label><br />
+              <input type="text" id="register-password" name="register-password" /><br />
+              <button class="register-btn" type="submit">Register Account</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
